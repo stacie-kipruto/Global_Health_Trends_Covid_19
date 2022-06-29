@@ -11,6 +11,8 @@ This is a simple project to showcase the fundamentals of BigQuery i.e:
 - This project had no specific research question, just a basic exploratory project.
 
 # Excel 'Reformatting'
+## CovidDeaths.csv
 - Data that was used in the excel sheet was 'population'
 - To avoid having to JOIN tables in the SQL workspace, the column 'population' was cut and added to the first 26 columns
 - Every other column was then omitted, creating the first table "CovidDeaths"
+## CovidVaccines.csv
