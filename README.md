@@ -1,4 +1,4 @@
-# CovidDeathsSQL
+# CovidDeathsSQL 
 This is a simple project to showcase the fundamentals of BigQuery i.e:
  - Storage of large data
  - Ingestion
@@ -10,9 +10,15 @@ This is a simple project to showcase the fundamentals of BigQuery i.e:
 - There's a lot of data and noise in the dataset and you only need a few elements depending on your research question.
 - This project had no specific research question, just a basic exploratory project.
 
-# Excel 'Reformatting'
-## CovidDeaths.csv
-- Data that was used in the excel sheet was 'population'
-- To avoid having to JOIN tables in the SQL workspace, the column 'population' was cut and added to the first 26 columns
-- Every other column was then omitted, creating the first table "CovidDeaths"
-## CovidVaccines.csv
+# Excel Reformatting
+## CovidDeaths.csv and CovidVaccines.csv
+- The original dataset was extracted from the website linked above
+- Different variables were chosen for the CovidDeaths and CovidVaccines csv files
+- To avoid having to JOIN multiple tables in the SQL workspace for every variable, only two tables were extracted from the main csv file.
+
+# Ingestion - BigQuery
+- On the BigQuery Platform, use an SQL workbench and create a project.
+- At the base of your project, create a table and upload your table by clicking "create table" and upload the two CSV's
+
+# Querying
+- Query the dataset to check that the right dataset has been uploaded.
