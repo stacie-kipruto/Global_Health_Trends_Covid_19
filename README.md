@@ -3,9 +3,9 @@
 # About this Project
 - This project aims to show the positivity and death rate of the COVID-19 virus. The raw data will be preprocessed using EXCEL, SQL workbench in BigQuery.
 - This project also seeks to show the fundamentals of BigQuery which is:
-  a) Storage of Big Data
-  b) Ingestion
-  c) Querying
+a) Storage of Big Data
+b) Ingestion
+c) Querying
 - The goal is to analyse the number of deaths globally.
 ![Percent Population Infected](https://user-images.githubusercontent.com/66944986/178153233-12fbb6be-3340-4f29-a20b-e932486f1e57.png)
 
@@ -28,20 +28,25 @@ The following tools were used in this project;
   2. The Percent Population Infected per country.
 - The dataset was loaded into Excel and slight reformattng was done.
 - Columns that were not necessary were deleted and the main variables that guided this project included:
-  _i_) Total number of deaths,
-  _ii_) Population
-  _iii_) Total number of vaccinated persons.
+_i_) Total number of deaths
+_ii_) Population
+_iii_) Total number of vaccinated persons.
 - To avoid having to join multiple tables on SQL for every variable, only two tables were extracted from the main .csv file
 
 # Ingestion - BigQuery
 - The two tables were then loaded onto BigQuery to analyse the data using various SQL queries
 
 # Querying
-- A sample of the queries that were written to explore the data and join the two tables can be found on this link (https://console.cloud.google.com/bigquery?sq=931240212867:ebf14e8c0104404a9b37b5b6d63f2a89) or on the file PortfolioSeries.sql(https://github.com/stacie-kipruto/CovidDeathsSQL/blob/main/PortfolioSeries.sql)
+- A sample of the queries that were written to explore the data and join the two tables can be found on this link (https://console.cloud.google.com/bigquery?sq=931240212867:ebf14e8c0104404a9b37b5b6d63f2a89) 
+![query snippet](https://user-images.githubusercontent.com/66944986/178155876-0afc5f55-bd2c-4db1-89d6-ead94a0cdda8.png)
+
+or on the file PortfolioSeries.sql(https://github.com/stacie-kipruto/CovidDeathsSQL/blob/main/PortfolioSeries.sql)
 
 # Extraction and Visualisation
 - After querying and arriving at the right questions, the data was extracted into (4) .csv files which was then visualized on the Tableau Platform to create an interactive dashboard.
 - The link to the public dashboard can be found on https://public.tableau.com/app/profile/stacey.kipruto/viz/CovidDashboardPortfolio_16573154928880/Dashboard1
+![dash](https://user-images.githubusercontent.com/66944986/178155947-947c5951-49d3-4c15-8452-2e2cbe9093e4.png)
+
 
 # Limitations
 - Tableau is not a natively live streaming tool. The data for this project is current and the visuals presented on the dashboard will only show the numbers for the date in which the project was posted.
