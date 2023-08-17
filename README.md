@@ -1,4 +1,4 @@
-# CovidDeathsSQL 
+# Exploring COVID-19 Impact: Analyzing Global Health Trends and Big Data Fundamentals
 
 # About this Project
 - This project aims to show the positivity and death rate of the COVID-19 virus. The raw data will be preprocessed using EXCEL, SQL workbench in BigQuery.
